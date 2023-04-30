@@ -1,9 +1,9 @@
 <?php
-	$dbServer = 'localhost';
-	$dbUsername = 'root';
-	$dbPassword = '';
-	$dbDatabase = 'busbooking';
-
+	$dbServer = 'sql303.epizy.com';
+	$dbUsername = 'epiz_34108688';
+	$dbPassword = 'hGvSKPWRpB5D';
+	$dbDatabase = 'epiz_34108688_busbooking';
+	
 	$adminConfig = array(
 		'adminUsername' => "admin",
 		'adminPassword' => "21232f297a57a5a743894a0e4a801fc3",
