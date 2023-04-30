@@ -17,4 +17,4 @@ jobs:
         server: ftpupload.net
         username: epiz_34108688
         password: ${{ secrets.ftp_password }}
-        destination-path: /htdocs
+        destination-path: /home/vol18_2/epizy.com/epiz_34108688/htdocs
