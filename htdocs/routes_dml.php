@@ -22,10 +22,10 @@ function routes_insert(){
 		if($data['amount'] == empty_lookup_value){ $data['amount'] = ''; }
 
 	// hook: routes_before_insert
-	//if(function_exists('routes_before_insert')){
-	//	$args=array();
-	//	if(!routes_before_insert($data, getMemberInfo(), $args)){ return false; }
-	//}
+	if(function_exists('routes_before_insert')){
+		$args=array();
+		if(!routes_before_insert($data, getMemberInfo(), $args)){ return false; }
+	}
 
 	$o = array('silentErrors' => true);
 	sql('insert into `routes` set       `name`=' . (($data['name'] !== '' && $data['name'] !== NULL) ? "'{$data['name']}'" : 'NULL') . ', `time`=' . (($data['time'] !== '' && $data['time'] !== NULL) ? "'{$data['time']}'" : 'NULL') . ', `amount`=' . (($data['amount'] !== '' && $data['amount'] !== NULL) ? "'{$data['amount']}'" : 'NULL'), $o);
