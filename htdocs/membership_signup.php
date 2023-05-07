@@ -1,5 +1,5 @@
 <?php
-	$app_name = 'Bus Booking System';
+	$app_name = 'Poornima Transportation System';
 	$currDir = dirname(__FILE__);
 	include("{$currDir}/defaultLang.php");
 	include("{$currDir}/language.php");
