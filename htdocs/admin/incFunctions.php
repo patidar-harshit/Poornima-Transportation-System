@@ -108,7 +108,7 @@
 					'homepageShowCount' => 0
 				),
 				'customers' => array(
-					'Caption' => 'Customers',
+					'Caption' => 'Student',
 					'Description' => '',
 					'tableIcon' => 'resources/table_icons/account_balances.png',
 					'group' => $tg[0],
@@ -556,7 +556,7 @@
 	}
 	########################################################################
 	function isEmail($email){
-		if(preg_match('/^([*+!.&#$¦\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
+		if(preg_match('/^([*+!.&#$ï¿½\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
 			return $email;
 		}else{
 			return FALSE;

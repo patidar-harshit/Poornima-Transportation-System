@@ -18,10 +18,10 @@ function buses_insert(){
 		if($data['number'] == empty_lookup_value){ $data['number'] = ''; }
 
 	// hook: buses_before_insert
-	if(function_exists('buses_before_insert')){
-		$args=array();
-		if(!buses_before_insert($data, getMemberInfo(), $args)){ return false; }
-	}
+	//if(function_exists('buses_before_insert')){
+	//	$args=array();
+	//	if(!buses_before_insert($data, getMemberInfo(), $args)){ return false; }
+	//}
 
 	$o = array('silentErrors' => true);
 	sql('insert into `buses` set       `number`=' . (($data['number'] !== '' && $data['number'] !== NULL) ? "'{$data['number']}'" : 'NULL'), $o);

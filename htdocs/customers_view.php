@@ -84,7 +84,7 @@
 	$x->QuickSearchText = $Translation["quick search"];
 	$x->ScriptFileName = "customers_view.php";
 	$x->RedirectAfterInsert = "customers_view.php?SelectedID=#ID#";
-	$x->TableTitle = "Customers";
+	$x->TableTitle ="Student";
 	$x->TableIcon = "resources/table_icons/account_balances.png";
 	$x->PrimaryKey = "`customers`.`id`";
 	$x->DefaultSortField = '1';

@@ -76,7 +76,7 @@
                         <a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="customers_view.php"><i class="fa fa-users"></i>Customers</a>
+                        <a href="customers_view.php"><i class="fa fa-users"></i>Student</a>
                     </li>
 					<li>
                         <a href="bookings_view.php"><i class="fa fa-money"></i>Bookings</a>
@@ -121,7 +121,7 @@
                   </div> 
                  <?php include("main.php");?>
                  <!-- /. ROW  -->
-				 <footer><strong><p><center>Bus Booking System. Developed By: Ronald. Brought To You by: <a href="http://code-projects.org/">code-projects</a></p></center></strong></footer>
+				 <footer><strong><p><center>@CopyRight 2023 : Harshit Patidar, Himanshu Rathi, Hemang Verma </p></center></strong></footer>
 				</div>
              <!-- /. PAGE INNER  -->
             </div>

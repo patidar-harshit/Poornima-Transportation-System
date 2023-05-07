@@ -7,7 +7,7 @@
                                 <h3><?php countrecords("customers"); ?></h3>
                             </div>
                             <div class="panel-footer back-footer-red">
-                                <a href="customers_view.php" style="text-decoration: none;color: white"><strong>Customers</strong></a>
+                                <a href="customers_view.php" style="text-decoration: none;color: white"><strong>Student</strong></a>
 
                             </div>
                         </div>
