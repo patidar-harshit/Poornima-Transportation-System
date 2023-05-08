@@ -1088,7 +1088,7 @@ body {
   font-size: 13px;
   line-height: 1.846;
   color: #666666;
-  background-image: url("https://www.careerindia.com/college-photos/520x380/5727/maismheadernew_1625670782.jpg");
+  background-image: url("https://s3.eu-central-1.amazonaws.com/hexagonpurus-website/_1200x630_crop_center-center_82_none/CB_H2.CityGold_Vista2.png?mtime=1667212876");
 }
 input,
 button,
@@ -5574,7 +5574,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #4caf50;
+  background-color: #660101;
   border-color: #d6e9c6;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
