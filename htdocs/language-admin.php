@@ -172,10 +172,7 @@
 	$Translation["view banned members"] = "View banned members";
 	$Translation["total members"] = "Total members";
 	$Translation["view all members"] = "View all members";
-	$Translation["BigProf tweets"]  = "Tweets By BigProf Software";
-	$Translation["follow BigProf"] = "Follow @bigprof";
-	$Translation["loading bigprof feed"] = "Loading @bigprof feed ...";
-	$Translation["remove feed"] = "Remove this feed";
+	
 	
 	//pageMail.php
 	$Translation["can not send mail"] = "You can not send emails currently. The configured sender email address is not valid.	Please <a href='pageSettings.php'>correct it first</a> then try again.";

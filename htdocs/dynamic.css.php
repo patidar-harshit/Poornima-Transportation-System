@@ -168,7 +168,7 @@ img[src="blank.gif"] { max-height: 10px !important; }
 }
 
 .theme-compact .navbar-brand {
-	font-size: 15px;
+	font-size: 20px;
 	height: 40px;
 	padding: 12px;
 }

@@ -108,7 +108,7 @@
 					'homepageShowCount' => 0
 				),
 				'customers' => array(
-					'Caption' => 'Student',
+					'Caption' => 'Students',
 					'Description' => '',
 					'tableIcon' => 'resources/table_icons/account_balances.png',
 					'group' => $tg[0],

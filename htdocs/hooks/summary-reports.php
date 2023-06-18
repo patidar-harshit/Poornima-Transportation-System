@@ -75,7 +75,7 @@
 	<div class="col-sm-12">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<div class="text-center text-bold" style="font-size: 1.5em; line-height: 2em;">Student</div>
+				<div class="text-center text-bold" style="font-size: 1.5em; line-height: 2em;">Students</div>
 			</div>
 			<div class="panel-body">
 				<div class="panel-body-description">

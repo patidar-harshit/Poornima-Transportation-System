@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Poornima Transportation System</title>
+    <title>POORNIMA TRANSPORT SYSTEM</title>
 	<!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FontAwesome Styles-->
@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Bus Booking</a>
+                <a class="navbar-brand" href="index.html">POORNIMA</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -60,7 +60,7 @@
             </li>
             <!--login/logout area ends-->
             <li class="divider"></li>
-            <li><a class="btn navbar-btn btn-primary" href="<?php echo PREPEND_PATH; ?>index.php?signOut=1"><i class="fa fa-power-off"></i> <strong style="color:white"><?php echo $Translation['sign out']; ?></strong> </a></li>
+            <li><a class="btn navbar-btn btn-primary" href="<?php echo PREPEND_PATH; ?>index.php?signOut=1"><i class="fa fa-power-off"></i> <strong><?php echo $Translation['sign out']; ?></strong> </a></li>
           </ul>
                     <!-- /.dropdown-user -->
                 </li>
@@ -76,7 +76,7 @@
                         <a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="customers_view.php"><i class="fa fa-users"></i>Student</a>
+                        <a href="customers_view.php"><i class="fa fa-users"></i>Students</a>
                     </li>
 					<li>
                         <a href="bookings_view.php"><i class="fa fa-money"></i>Bookings</a>
@@ -121,7 +121,7 @@
                   </div> 
                  <?php include("main.php");?>
                  <!-- /. ROW  -->
-				 <footer><strong><p><center>@CopyRight 2023 : Harshit Patidar, Himanshu Rathi, Hemang Verma </p></center></strong></footer>
+				 <footer><strong><b><center>POORNIMA TRANSPORT SYSTEM. Developed By: Team Backbencher</b></center></strong></footer>
 				</div>
              <!-- /. PAGE INNER  -->
             </div>
