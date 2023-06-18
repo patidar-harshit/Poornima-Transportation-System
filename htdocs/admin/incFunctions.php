@@ -851,14 +851,14 @@
 		$host = (isset($s['HTTP_HOST']) ? $s['HTTP_HOST'] : $s['SERVER_NAME'] . $port);
 		$uri = dirname($s['SCRIPT_NAME']);
 
-		/* app folder name (without the ending admin part) */
+		/* app folder name (without the ending /admin part) */
 		$app_folder_is_admin = false;
 		$app_folder = substr(dirname(__FILE__), 0, -6);
-		if(substr($app_folder, -6, 6) == 'admin' || substr($app_folder, -6, 6) == '\\admin')
+		if(substr($app_folder, -6, 6) == '/admin' || substr($app_folder, -6, 6) == '\\admin')
 			$app_folder_is_admin = true;
 
-		if(substr($uri, -12, 12) == 'admin/admin') $uri = substr($uri, 0, -6);
-		elseif(substr($uri, -6, 6) == 'admin' && !$app_folder_is_admin) $uri = substr($uri, 0, -6);
+		if(substr($uri, -12, 12) == '/admin/admin') $uri = substr($uri, 0, -6);
+		elseif(substr($uri, -6, 6) == '/admin' && !$app_folder_is_admin) $uri = substr($uri, 0, -6);
 		elseif($uri == '/' || $uri == '\\') $uri = '';
 
 		return "{$http}//{$host}{$uri}/{$page}";

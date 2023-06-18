@@ -19,11 +19,11 @@
 
 	function migrate_config(){
 		$curr_dir = dirname(__FILE__);
-		if(!is_readable($curr_dir . 'admin/incConfig.php') || !detect_config(false)){
+		if(!is_readable($curr_dir . '/admin/incConfig.php') || !detect_config(false)){
 			return false; // nothing to migrate
 		}
 
-		@include($curr_dir . 'admin/incConfig.php');
+		@include($curr_dir . '/admin/incConfig.php');
 		@include($curr_dir . '/config.php');
 
 		$config_array = array(
@@ -35,8 +35,8 @@
 		);
 
 		if(save_config($config_array)){
-			@rename($curr_dir . 'admin/incConfig.php', $curr_dir . 'admin/incConfig.bak.php');
-			@unlink($curr_dir . 'admin/incConfig.php');
+			@rename($curr_dir . '/admin/incConfig.php', $curr_dir . '/admin/incConfig.bak.php');
+			@unlink($curr_dir . '/admin/incConfig.php');
 			return true;
 		}
 
