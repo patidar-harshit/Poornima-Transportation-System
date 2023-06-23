@@ -50,7 +50,7 @@
 			'availability' => array('Availability', '', 'resources/table_icons/accept.png', 'None'),
 			'bookings' => array('Bookings', '', 'resources/table_icons/accordion.png', 'None'),
 			'routes' => array('Routes', '', 'resources/table_icons/routing_go_right.png', 'None'),
-			'customers' => array('Customers', '', 'resources/table_icons/account_balances.png', 'None')
+			'customers' => array('Students', '', 'resources/table_icons/account_balances.png', 'None')
 		);
 		if($skip_authentication || getLoggedAdmin()) return $arrTables;
 
